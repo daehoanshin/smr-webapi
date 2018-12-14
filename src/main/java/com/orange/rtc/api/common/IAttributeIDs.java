@@ -1,4 +1,4 @@
-package com.abl.rtc.api.common;
+package com.orange.rtc.api.common;
 
 public class IAttributeIDs {
 	// url

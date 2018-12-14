@@ -1,11 +1,11 @@
-package com.abl.rtc.api.mgr;
+package com.orange.rtc.api.mgr;
 
 import java.util.List;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.springframework.stereotype.Component;
 
-import com.abl.rtc.api.common.SysoutProgressMonitor;
+import com.orange.rtc.api.common.SysoutProgressMonitor;
 import com.ibm.team.links.client.ILinkManager;
 import com.ibm.team.process.client.IProcessItemService;
 import com.ibm.team.process.common.IProjectArea;

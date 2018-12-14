@@ -1,4 +1,4 @@
-package com.abl.domain;
+package com.orange.domain;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

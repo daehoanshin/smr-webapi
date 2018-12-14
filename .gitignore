@@ -8,3 +8,5 @@ target/classes/
 target/m2e-wtp/web-resources/META-INF/
 
 src/main/webapp/WEB-INF/
+
+webapp/WEB-INF/lib/

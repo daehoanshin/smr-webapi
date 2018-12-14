@@ -1,4 +1,4 @@
-package com.abl.web;
+package com.orange.web;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.abl.domain.Authenticate;
-import com.abl.rtc.api.client.ApprovalStatusAction;
-import com.abl.rtc.api.common.IAttributeIDs;
-import com.abl.rtc.api.mgr.RTCMGR;
-import com.abl.rtc.api.mgr.WorkitemMGR;
+import com.orange.domain.Authenticate;
+import com.orange.rtc.api.client.ApprovalStatusAction;
+import com.orange.rtc.api.common.IAttributeIDs;
+import com.orange.rtc.api.mgr.RTCMGR;
+import com.orange.rtc.api.mgr.WorkitemMGR;
 import com.ibm.team.repository.common.TeamRepositoryException;
 import com.ibm.team.workitem.client.IWorkItemClient;
 

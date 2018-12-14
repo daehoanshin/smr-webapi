@@ -1,4 +1,4 @@
-package com.abl.rtc.api.client;
+package com.orange.rtc.api.client;
 
 import javax.annotation.Resource;
 
@@ -7,8 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import com.abl.rtc.api.mgr.WorkflowMGR;
-import com.abl.rtc.api.mgr.WorkitemMGR;
+import com.orange.rtc.api.mgr.WorkflowMGR;
+import com.orange.rtc.api.mgr.WorkitemMGR;
 import com.ibm.team.repository.common.TeamRepositoryException;
 import com.ibm.team.workitem.client.IWorkItemClient;
 import com.ibm.team.workitem.client.WorkItemWorkingCopy;

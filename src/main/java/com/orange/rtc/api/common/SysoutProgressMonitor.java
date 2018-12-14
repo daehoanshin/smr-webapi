@@ -1,4 +1,4 @@
-package com.abl.rtc.api.common;
+package com.orange.rtc.api.common;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.springframework.stereotype.Component;

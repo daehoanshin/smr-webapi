@@ -1,13 +1,11 @@
-package com.abl.web;
+package com.orange.web;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
 
 import java.io.IOException;
 import java.net.URL;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateEncodingException;
+
 import javax.net.ssl.HttpsURLConnection;
 import javax.security.cert.CertificateException;
 

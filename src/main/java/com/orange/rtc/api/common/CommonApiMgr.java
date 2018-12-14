@@ -1,9 +1,10 @@
-package com.abl.rtc.api.common;
+package com.orange.rtc.api.common;
+
 
 import org.eclipse.core.runtime.IProgressMonitor;
 
-import com.abl.rtc.api.mgr.WorkflowMGR;
-import com.abl.rtc.api.mgr.WorkitemMGR;
+import com.orange.rtc.api.mgr.WorkflowMGR;
+import com.orange.rtc.api.mgr.WorkitemMGR;
 import com.ibm.team.workitem.client.IWorkItemClient;
 import com.ibm.team.workitem.client.WorkItemWorkingCopy;
 import com.ibm.team.workitem.common.model.IWorkItem;
