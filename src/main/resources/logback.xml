@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- console로 log 남기기 -->
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>
+				▶ %-5level %d{HH:mm:ss.SSS} [%thread] %logger[%method:%line] - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+	
+	<property name="LOG_DIR" value="D:\\IBM\\Interface\\logs" />
+	<property name="LOG_PATH_NAME" value="${LOG_DIR}\\approval" />
+	<!-- <property name="LOG_DIR" value="/home/xbb123/IBM/Interface/logs" />
+	<property name="LOG_PATH_NAME" value="${LOG_DIR}/approval" /> -->
+	
+	<appender name="approvalStateUpdate" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!-- <file>D:\IBM\Interface\logs\approval.log</file> -->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+
+			<fileNamePattern>${LOG_PATH_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
+
+			<!-- 30시간 지난건 지우겠다. -->
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%-5level %d{HH:mm:ss} [%method:%line] - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- 이 아래에 있는 애들 다 log로 찍겠다. -->
+	<logger name="com.abl" level="info">
+		<appender-ref ref="approvalStateUpdate" />
+		<appender-ref ref="console" />
+	</logger>
+
+</configuration>
