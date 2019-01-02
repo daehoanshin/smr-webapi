@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
+<link href="/resources/stylesheets/bootstrap.css" rel="stylesheet">
+<link href="/resources/stylesheets/bootstrap-responsive.css" rel="stylesheet">
+<link href="/resources/stylesheets/docs.css" rel="stylesheet">
+<link href="/resources/stylesheets/main.css" rel="stylesheet">
+<style>
+  body {
+    padding-top: 0px;
+  }
+</style>
